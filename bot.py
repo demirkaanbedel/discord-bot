@@ -22,4 +22,8 @@ async def heh(ctx, count_heh = 5):
 async def yardım(ctx):
     await ctx.send("Yardıma ihtiyacın var gibi gözüküyor!")
 
+@bot.command()
+async def nasılsın(ctx):
+    await ctx.send("İyiyim teşekkürler!")
+    
 bot.run("tokenını gir")
